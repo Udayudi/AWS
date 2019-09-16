@@ -1,33 +1,110 @@
 .App {
+  /* padding-top: 80px; */
+  /* background-image: url(./img/camera-coffee-colorful-1391374.jpg);
+  background-repeat: no-repeat;
+  background-size: 1300px, 1300px, auto; */
+}
+.white-text {
+  color: #fff;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.mark-left {
+  display: flex;
+  justify-content: left;
+  margin-top: 2%;
+  padding: 3%;
+  max-width: 650px;
+  /* border: #05a598 solid; */
+}
+
+.sign-in {
+  display: flex;
+  justify-content: end;
+  margin-top: 2%;
+  padding: 10%;
+  /* border: #05a598 solid; */
+  /* background: rgba(148, 223, 214, 0.062); */
+}
+
+.f1 {
+  font-size: 12px;
+}
+
+/* Side Nav Bar */
+
+.sidenav {
+  /* background:#05a598;
+      color: #fff;
+      display: block;
+      height: 100%;
+      width: 100px;
+      padding-top: 5%;
+      padding-left: 2%; */
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #05a598; /*Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  /* border: #05a598 solid 1px; */
+}
+
+.sidenav a {
+  /* text-decoration: none;
+      color: #fff;
+      border: #fff solid 1px;
+      margin-bottom: 5px;
+      padding: 5px; */
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  /* border: #fff solid 1px; */
+  border-bottom: #ffffff solid 1px;
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
+  margin-left: 102px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.pr {
+  padding-right: 60px;
+}
+.tit {
+  border: #05a598 1px solid;
+  border-radius: 60px;
+  padding-top: 30px;
+  padding-left: 100px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background: #05a598;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.route-link {
+  color: #05a598;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.route-link:hover {
+  color: #000;
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label-t {
+  font-size: 15px;
 }
